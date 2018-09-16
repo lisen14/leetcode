@@ -3,7 +3,6 @@ package person.sen.leetcode.leetcode4;
 import org.junit.Assert;
 import org.junit.Test;
 
-import static org.junit.Assert.*;
 
 public class LeetCode4Test {
     private LeetCode4 leetCode4 = new LeetCode4();
@@ -33,4 +32,19 @@ public class LeetCode4Test {
     }
 
 
+    @Test
+    public void testCase4() {
+        int[] array2 = {5, 6, 7, 8};
+        int[] array1 = {1, 2, 3, 4};
+
+        Assert.assertEquals(4.5d, leetCode4.findMedianSortedArrays(array1, array2), 0.00001d);
+    }
+
+    @Test
+    public void testCase5() {
+        int[] array2 = {1, 3};
+        int[] array1 = {2};
+
+        Assert.assertEquals(2d, leetCode4.findMedianSortedArrays(array1, array2), 0.00001d);
+    }
 }
