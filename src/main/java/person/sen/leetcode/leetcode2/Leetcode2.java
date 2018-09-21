@@ -1,5 +1,7 @@
 package person.sen.leetcode.leetcode2;
 
+import person.sen.leetcode.model.ListNode;
+
 public class Leetcode2 {
 
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {

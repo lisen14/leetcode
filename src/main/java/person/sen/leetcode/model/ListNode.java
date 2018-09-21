@@ -6,7 +6,7 @@ import java.util.Objects;
  * @author senli
  */
 public class ListNode {
-    int val;
+    public int val;
     public ListNode next;
 
     @Override
